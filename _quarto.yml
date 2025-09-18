@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Layla's Explorations with LLMs"
+  title: "My Explorations with LLMs"
   navbar:
     right:
       - about.qmd

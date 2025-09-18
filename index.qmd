@@ -1,5 +1,5 @@
 ---
-title: Layla's Explorations with LLMs
+title: My Explorations with LLMs
 listing:
   contents: posts
   sort: date desc
