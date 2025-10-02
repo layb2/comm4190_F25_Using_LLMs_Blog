@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
-    <lastmod>2025-09-18T18:44:14.937Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/003_bias_profession/bias_profession.html</loc>
-    <lastmod>2025-09-18T18:44:14.995Z</lastmod>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/about.html</loc>
+    <lastmod>2025-10-02T23:03:41.812Z</lastmod>
   </url>
   <url>
     <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/002_bias_control/bias_control.html</loc>
-    <lastmod>2025-09-18T18:44:14.978Z</lastmod>
+    <lastmod>2025-10-02T23:03:41.851Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
+    <lastmod>2025-10-02T23:03:41.812Z</lastmod>
   </url>
   <url>
     <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/001_cognitive_biases/cognitive_biases.html</loc>
-    <lastmod>2025-09-18T18:44:14.954Z</lastmod>
+    <lastmod>2025-10-02T23:03:41.827Z</lastmod>
   </url>
   <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/000_test_post/index.html</loc>
-    <lastmod>2025-09-18T18:44:14.938Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/about.html</loc>
-    <lastmod>2025-09-18T18:44:14.937Z</lastmod>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/003_bias_profession/bias_profession.html</loc>
+    <lastmod>2025-10-02T23:03:41.868Z</lastmod>
   </url>
 </urlset>
