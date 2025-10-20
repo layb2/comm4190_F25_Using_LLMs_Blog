@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/about.html</loc>
-    <lastmod>2025-10-20T20:07:36.263Z</lastmod>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
+    <lastmod>2025-10-20T20:16:22.319Z</lastmod>
   </url>
   <url>
     <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/002_bias_control/bias_control.html</loc>
-    <lastmod>2025-10-20T20:07:36.303Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/006_yes_and/yes_and.html</loc>
-    <lastmod>2025-10-20T20:07:36.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/001_cognitive_biases/cognitive_biases.html</loc>
-    <lastmod>2025-10-20T20:07:36.279Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
-    <lastmod>2025-10-20T20:07:36.263Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/005_surfaced_voices/surfaced_voices.html</loc>
-    <lastmod>2025-10-20T20:07:36.384Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/004_base_tuned_exercise/base_tuned_exercise.html</loc>
-    <lastmod>2025-10-20T20:07:36.348Z</lastmod>
+    <lastmod>2025-10-20T20:16:22.358Z</lastmod>
   </url>
   <url>
     <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/003_bias_profession/bias_profession.html</loc>
-    <lastmod>2025-10-20T20:07:36.319Z</lastmod>
+    <lastmod>2025-10-20T20:16:22.375Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/001_cognitive_biases/cognitive_biases.html</loc>
+    <lastmod>2025-10-20T20:16:22.335Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/about.html</loc>
+    <lastmod>2025-10-20T20:16:22.319Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/004_base_tuned_exercise/base_tuned_exercise.html</loc>
+    <lastmod>2025-10-20T20:16:22.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/005_surfaced_voices/surfaced_voices.html</loc>
+    <lastmod>2025-10-20T20:16:22.440Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/006_yes_and/yes_and.html</loc>
+    <lastmod>2025-10-20T20:16:22.445Z</lastmod>
   </url>
 </urlset>
