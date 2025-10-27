@@ -2,7 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/008_book_ai_risks/book_ai_risks.html",
       "/posts/006_yes_and/yes_and.html",
+      "/posts/007_book_doomer_critique/book_doomer_critique.html",
       "/posts/005_surfaced_voices/surfaced_voices.html",
       "/posts/004_base_tuned_exercise/base_tuned_exercise.html",
       "/posts/003_bias_profession/bias_profession.html",

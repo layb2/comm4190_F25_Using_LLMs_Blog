@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Layla">
-<meta name="dcterms.date" content="2025-10-08">
-<meta name="description" content="This post explores differences in voice between the base and instruction-tuned versions of Ollama’s llama3.2 LLM, in order to explore how the system built around the model impacts how and what information is received by the user.">
+<meta name="dcterms.date" content="2025-10-13">
+<meta name="description" content="This blog post will reflect on a line of criticism made by Dr.&nbsp;Buolamwini in the book Unmasking AI: My Mission to Protect What Is Human in a World of Machines.">
 
-<title>Surfaced Voices in Base vs.&nbsp;Tuned LLMs – My Explorations with LLMs</title>
+<title>Reflecting on Unmasking AI: Critiquing Doomers – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,17 +115,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Surfaced Voices in Base vs.&nbsp;Tuned LLMs</h1>
+      <h1 class="title">Reflecting on Unmasking AI: Critiquing Doomers</h1>
                   <div>
         <div class="description">
-          This post explores differences in voice between the base and instruction-tuned versions of Ollama’s llama3.2 LLM, in order to explore how the system built around the model impacts how and what information is received by the user.
+          This blog post will reflect on a line of criticism made by Dr.&nbsp;Buolamwini in the book Unmasking AI: My Mission to Protect What Is Human in a World of Machines.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Bias</div>
-                <div class="quarto-category">Tuning</div>
-                <div class="quarto-category">Ethics</div>
-                <div class="quarto-category">User Experience</div>
+                <div class="quarto-category">Living With A Book</div>
               </div>
                   </div>
   </div>
@@ -143,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 8, 2025</p>
+        <p class="date">October 13, 2025</p>
       </div>
     </div>
     
@@ -162,18 +159,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>In the previous experiment, I highlighted the stark difference between base and instruction-tuned LLMs responding to simple questions. I reflected on the experiment as a whole in my blog post, but today want to hone in on a smaller detail of difference: voice.</p>
-<p>The base model produced outputs that sounded like collages of people’s voices (opinions, perspectives, tones) that had been pulled from the training data. The responses contained personal pronouns including “I” and “we” as well as subjective and, oftentimes, opinionated framing. In response to “The President of the United States is,” the base LLM responded with “a very powerful individual, who can easily get away with anything,” and contradicted itself when repeated, outputting “a ceremonial figurehead, and not much more than that.” While I was already aware that LLMs are trained on the work of real people, the outputs from the base LLM make this amalgamation of human expression jarringly clear in a way that the tuned LLM does not.</p>
-<p>The tuned LLM, in contrast, stripped away the human voice(s) and presented information in a neutral, depersonalized one. Because so much of the base LLM outputs seemed opinionated and often biased, it begs the question of whether masking person voice so heavily like this risks hiding the model’s dependence on human bias embedded in the data. Or does the system design weed out bias enough to justify the extent of the masking?</p>
-<p>Of course, a prompt like “The President of the United States is” might not be the right choice in exploring this issue, since the tuned LLM’s output is expected and would not reveal an underlying voice. In exploring this further, I will engineer prompts that I believe necessitate that some kind of voice comes through the output (e.g.&nbsp;a creative or subjective prompt). I would also like to play around with how reasonable changes to the settings might affect (i.e.&nbsp;reduce) the masking of these “voices” in the training data.</p>
-<p>By comparing responses from the base and tuned models to these prompts, I will set out to explore whose voice appears to be “speaking” through the output; that is, does it seem as though the voice(s) of the original writers whose texts populate the training data is coming through the tuned outputs, or might it be the voice(s) of the designers and engineers of the system that shapes them? Is it possible that the tuned version of the model has sparsed those individual voices to a granular enough degree that it, when combined with other aspects of its system, simply ends up with its own voice? Better yet, are these questions even answerable?</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="surfaced_voices_files/figure-html/3cd6f296-c5a5-4051-a13d-1e44825d2066-1-1d97e631-0d83-456d-8e18-0587f87ccb11.png" class="img-fluid figure-img"></p>
-<figcaption>llm-voices.png</figcaption>
-</figure>
-</div>
-<p>Image generated by Copilot.</p>
+<p>My impression of Unmasking AI by Dr.&nbsp;Joy Buolamwini so far is that it is an enlightening literary work on the use of ML/AI in tech products. While her focus is not generative AI specifically, she is critical of AI overall and uses her experiences in computer vision research to call attention to bias lurking in algorithms.</p>
+<p>A large theme in the book is her call to action in preventing AI harms, with a keen focus on the power that the AI conversation itself can have in preventing or disregarding these harms. One line of reasoning in the book that I find very compelling is that, despite her being critical of AI in general, she recognizes that not all AI critiques are created equal.</p>
+<p>Specifically, she criticizes those with a doomer mindset, which she refers to as “longtermists.” She posits this view of AI harm/risk lacks merit in the current AI conversation, because it tends to prioritize existential threats that AI poses to hypothetical people. Dr.&nbsp;Buolamwini argues that this minimizes existing AI harms, including those contributing to structural violence in the here and now.</p>
 
 
 
