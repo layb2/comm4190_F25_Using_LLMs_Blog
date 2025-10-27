@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Welcome to my blog!",
     "section": "",
-    "text": "Welcome to my blog! My posts include explorations of LLMs and reflections on the book Unmasking AI by Dr. Buolamwini."
+    "text": "My name is Layla, and my posts feature explorations of LLMs and reflections on the book Unmasking AI by Dr. Buolamwini."
   },
   {
     "objectID": "posts/002_bias_control/bias_control.html",
@@ -18,7 +18,7 @@
     "href": "posts/008_book_ai_risks/book_ai_risks.html",
     "title": "Reflecting on Unmasking AI: Changing the Conversation",
     "section": "",
-    "text": "Dr. Buolamwini points out how many examples of AI risks feel inconsequential or “cute,” for example, an AI agent that uses its intelligence to coerce individuals into diverting resources toward paper clip production, or a computer vision system that mistakes blueberry cupcakes for chihuahuas.\n“[But these are the kinds of] ideas and examples being presented in elite institutions, used in college curricula, and shared in a manner that shapes the discourse about the future of AI,” she writes. Ultimately, much of the current conversation in academia and business contexts about AI risks is speculative and distant. Describing them in such ways, though, minimizes existing AI harms at best, and, at worst, drowns out the discussion of them.\nThroughout Dr. Buolamwini’s research, she worked with facial recognition software that struggled to identify and classify darker-skinned individuals. Computer vision algorithms like the ones she worked with were being used to develop tech products, and in an application like a self-driving car, for example, the bias in those algorithsms could have serious consequences that disproportionately affect Black people.\nWhile there is much more to be said on this topic, it is clear that how we talk about AI risk/harm matters just as much as having the discussion at all. The examples we use determine how people characterize AI and assess its risks, and when those examples are hyperbolic or overly hypothetical, we do a disservice to the real AI harms that we face today.\n\n\n\nunmasking_ai_cover.jpg"
+    "text": "Dr. Buolamwini points out how many examples of AI risks feel inconsequential or “cute,” for example, an AI agent that uses its intelligence to coerce individuals into diverting resources toward paper clip production, or a computer vision system that mistakes blueberry cupcakes for chihuahuas.\n“[But these are the kinds of] ideas and examples being presented in elite institutions, used in college curricula, and shared in a manner that shapes the discourse about the future of AI,” she writes. Ultimately, much of the current conversation in academia and business contexts about AI risks is speculative and distant. Describing them in such ways, though, minimizes existing AI harms at best, and, at worst, drowns out the discussion of them.\nThroughout Dr. Buolamwini’s research, she worked with facial recognition software that struggled to identify and classify darker-skinned individuals. Computer vision algorithms like the ones she worked with were being used to develop tech products, and in an application like a self-driving car, for example, the bias in those algorithsms could have serious consequences that disproportionately affect darker-skinned people.\nWhile there is much more to be said on this topic, it is clear that how we talk about AI risk/harm matters just as much as having the discussion at all. The examples we use determine how people characterize AI and assess its risks, and when those examples are hyperbolic or overly hypothetical, we do a disservice to the real AI harms that we face today.\n\n\n\nunmasking_ai_cover.jpg"
   },
   {
     "objectID": "posts/005_surfaced_voices/surfaced_voices.html",
