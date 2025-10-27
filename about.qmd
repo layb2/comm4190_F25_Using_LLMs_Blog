@@ -1,8 +1,8 @@
 ---
-title: About
+title: Welcome to my blog!
 image: Headshot_Layla_Brooks.JPEG
 about:
   template: jolla
 ---
 
-Welcome to my blog! My posts include explorations of LLMs and reflections on the book Unmasking AI by Dr. Buolamwini.
+My name is Layla, and my posts feature explorations of LLMs and reflections on the book Unmasking AI by Dr. Buolamwini. 
