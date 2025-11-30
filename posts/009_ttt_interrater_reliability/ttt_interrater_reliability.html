@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Layla">
-<meta name="dcterms.date" content="2025-09-16">
-<meta name="description" content="This blog post series will feature a visual comparison of bias in AI image generators. The platforms being used include Microsoft Copilot, ChatGPT 4, and Dall-E Free. All three platforms are assumed to rely on Dall-E 3 or a close variant of it.">
+<meta name="dcterms.date" content="2025-10-23">
+<meta name="description" content="In a TikTok video with over 1000 comments, a person argues that there are pros and cons to both working fully in-office and working remotely/from home, ultimately advocating for a hybrid work schedule. This blog post series revolves around a study of hybrid/non-hybrid preferences using the comment section of that video and the assistance of an LLM.">
 
-<title>Visual Comparison of Bias in Image Generation (Control) – My Explorations with LLMs</title>
+<title>Inter-rater Reliability in an LLM-Assisted Research Project – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -113,18 +113,13 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Visual Comparison of Bias in Image Generation (Control)</h1>
+      <h1 class="title">Inter-rater Reliability in an LLM-Assisted Research Project</h1>
                   <div>
         <div class="description">
-          This blog post series will feature a visual comparison of bias in AI image generators. The platforms being used include Microsoft Copilot, ChatGPT 4, and Dall-E Free. All three platforms are assumed to rely on Dall-E 3 or a close variant of it.
+          In a TikTok video with over 1000 comments, a person argues that there are pros and cons to both working fully in-office and working remotely/from home, ultimately advocating for a hybrid work schedule. This blog post series revolves around a study of hybrid/non-hybrid preferences using the comment section of that video and the assistance of an LLM.
         </div>
       </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">Image Generation</div>
-                <div class="quarto-category">Bias</div>
-                <div class="quarto-category">Ethics</div>
-              </div>
-                  </div>
+                </div>
   </div>
     
   
@@ -140,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 16, 2025</p>
+        <p class="date">October 23, 2025</p>
       </div>
     </div>
     
@@ -159,17 +154,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This blog post series will feature a visual comparison of bias in AI image generators. The platforms being used include Microsoft Copilot, ChatGPT 4, and Dall-E Free. All three platforms are assumed to rely on Dall-E 3 or a close variant of it. This commonality allows for a visual exploration of how the systems built around a model may impact manifestations of bias in the output to the user.</p>
-<p>In this first post, I will show how the systems respond to neutral prompts that lack explicit social or cultural context.</p>
+<p>While working on this LLM-assisted study of sentiments surrounding hybrid vs non-hybrid work in the comment section of a TikTok video, improving the inter-rater reliability score was the most time-intensive part.</p>
+<p>In developing the prompt to get the LLM to code the comments, I faced various challenges.</p>
+<p>Initially, the chosen research question was whether the commenters preferred remote or in-office work; the original concepts given to the LLM were as follows: “Code 1 if the comment explicitly expresses support for working remotely/from home. Code 0 if not.” “Code 1 if the comment explicitly expresses support for working in office. Code 0 if not.”</p>
+<p>While coding the comments, I found that almost none of them in the sample preferred an entirely in-office schedule. Additionally, many comments were variations of “THIS!,” “100%,” etc. While I don’t remember the exact Krippendorff’s Alpha Scores, I know that they were somewhere in the slight to moderate range.</p>
+<p>In order to improve the scores, better reflect the discourse that the video prompted, and ensure that the aforementioned comments were adequately handled during coding, the research question and prompt were refined to:</p>
+<p>Concept 1: “Code 1 if the comment explicitly expresses support for working a hybrid/mixed schedule or agrees with the video generally without explicitly naming hybrid work. Code 0 if the comment does not support hybrid work.” Concept 2: “Code 1 if the comment explicitly expresses support for working in-office only, explicitly expresses support for working remotely/from home only, or explicitly rejects hybrid work. Code 0 if the comment does not support fully in-office/fully remote work.”</p>
+<p>The final Krippendorff’s Alpha Scores for interrater reliability were in the “Almost Perfect” and “Substantial” ranges – a huge improvement from that of the original prompt!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="bias_control_files/figure-html/240a671f-f105-425d-b57f-aca2d6b3c40e-1-e1468085-99f5-460d-b719-ac12fcb9333a.png" class="img-fluid figure-img"></p>
-<figcaption>bias-control.png</figcaption>
+<p><img src="ttt_interrater_reliability_files/figure-html/1ac2818e-c5ec-46ea-b469-8f155a222eca-1-7f45e289-af10-4301-b0cf-5d0ef90da3f8.png" class="img-fluid figure-img"></p>
+<figcaption>IRR-Scores.png</figcaption>
 </figure>
 </div>
-<p>These images will serve as a control group of sorts, setting a baseline expectation for how image generation differs between these three systems, which, as mentioned, employ the same (or a variant of the same) underlying model.</p>
-<p>So far, there is not much visual difference, although the images generated by Dall-E Free appear more stylized than the other platforms, and those by ChatGPT seem slightly less granular in detail than Copilot but remain identical in composition.</p>
-<p>Future blog posts in this series will compare images generated by prompts situated in social and/or cultural contexts in order to observe if differences result from the systems built around the underlying image generation model.</p>
+<p>Minor changes in wording either harmed one concept’s score whilst improving the other, caused minimal improvements to both, or had significant negative effects on both scores. A time-intensive process of trial and error, combined with focusing on being as clear and concise as possible while still addressing the variety of possible comment types, was most effective in improving the scores. For example, providing the LLM with examples of keywords that signaled preferences was helpful in improving the score. The scores started to near the 0.7 threshold, but my refinements stopped making much improvement, so I examined the LLM-coded dataset to see if there was a certain type of comment that it was miscoding. After identifying that it struggled to code comments where agreement was expressed but followed by a statement of preference, I updated the concepts (e.g.&nbsp;“Code 0 if…the agreement is not clearly about the video’s advocacy for hybrid.”) in order to better handle that type of comment and create a clearer distinction between concepts.</p>
 
 
 
