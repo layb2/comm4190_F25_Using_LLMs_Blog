@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Layla">
-<meta name="dcterms.date" content="2025-09-12">
-<meta name="description" content="In this post, I will be reflecting on the growing need for AI literacy, exploring a psychology-based interpretation of LLM errors, and briefly looking ahead to the potential of that framework to aid in education about interacting with AI.">
+<meta name="dcterms.date" content="2025-11-28">
+<meta name="description" content="This blog post tests GPT-4o’s ability to accurately guess the word of the day in Semantle.">
 
-<title>Parallels Between LLM Errors &amp; Human Cognitive Biases – My Explorations with LLMs</title>
+<title>LLM Guessing Behaviors in Semantle – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -113,17 +113,13 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Parallels Between LLM Errors &amp; Human Cognitive Biases</h1>
+      <h1 class="title">LLM Guessing Behaviors in Semantle</h1>
                   <div>
         <div class="description">
-          In this post, I will be reflecting on the growing need for AI literacy, exploring a psychology-based interpretation of LLM errors, and briefly looking ahead to the potential of that framework to aid in education about interacting with AI.
+          This blog post tests GPT-4o’s ability to accurately guess the word of the day in Semantle.
         </div>
       </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">Literacy</div>
-                <div class="quarto-category">Psychology</div>
-              </div>
-                  </div>
+                </div>
   </div>
     
   
@@ -139,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 12, 2025</p>
+        <p class="date">November 28, 2025</p>
       </div>
     </div>
     
@@ -158,19 +154,42 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Sam Altman once spoke of a very near future where people have AI doctors and lawyers (O’Rourke). AI, indeed, has quickly permeated many fields of discipline, and Altman’s vision of the future is inching forward, not just for people who use LLMs as legal, medical, and financial consultants, but for professionals in those industries who support their work with LLMs.</p>
-<p>Often for them, the result of misinformation that is received due to LLM hallucination is itself legal and/or financial hardship. Across the U.S., the last few years of law news have been sprinkled with practitioners facing sanctions, including fines, for citing cases fabricated by LLMs; in many such cases, the lawyers had made good-faith judgments that the information they had received was accurate (Merken).</p>
-<p>The AI surge in professional spaces is not dying down any time soon, so as its use becomes commonplace, the need for clear, communicable frameworks of understanding – and teaching about – the constraints of LLMs is only growing.</p>
-<p>In “Redefining ‘Hallucination’ in LLMs: Towards a psychology-informed framework for mitigating misinformation,” the authors pose certain cognitive behaviors in humans as parallels for interpreting types of errors in LLM outputs; pictured is a table from their study, which shows various cognitive behaviors in humans that mirror errors produced by LLMs (Berberette et al.).</p>
-<p><img src="cognitive_biases_files/figure-html/0d8355ce-234f-4422-8dc1-113f35d631f9-2-37f31407-4a5f-41e1-a2b8-eb7719f813c5.png" class="img-fluid" alt="image.png"><img src="cognitive_biases_files/figure-html/0d8355ce-234f-4422-8dc1-113f35d631f9-1-321bafcf-4b4a-462c-9b6b-544a0b9fc660.png" class="img-fluid" alt="image.png"></p>
-<p>The average person may not, for example, be familiar with the term “availability heuristics,” but they are familiar with human behavior; in a person, this bias could look like developing a fear of cruise ships after watching The Titanic. In LLMs, it can look like generating citations that, though they match patterns common in the training data, do not actually exist. In both the human and AI cases, outcomes become based on plausibility rather than objective truths (O’Rourke). In the latter case, many users are not even aware that the system they are trusting in is operating on these cognitive-like shortcuts.</p>
-<p>I find this psychology-based interpretation of LLM hallucination compelling when thinking about AI literacy, as it digestibly relates AI outputs to human experiences. There are benefits to a clear, digestible, and accessible characterization of LLMs that I believe technical and non-technical audiences alike would find beneficial. Incorporating this approach could help people contextualize model limitations via behaviors that are already familiar to them.</p>
-<p>Works Cited</p>
-<p>“[2402.01769] Redefining”Hallucination” in LLMs: Towards a psychology-informed framework for mitigating misinformation.” arXiv, 2024, https://arxiv.org/abs/2402.01769.</p>
-<p>Merken, Sara. “AI ‘hallucinations’ in court papers spell trouble for lawyers.” Reuters, 2025, https://www.reuters.com/technology/artificial-intelligence/ai-hallucinations-court-papers-spell-trouble-lawyers-2025-02-18/.</p>
-<p>O’Rourke, Joe. “Beyond Moore’s Law: Sam Altman’s 3 Big AI Predictions.” Mid Mic Crisis, 2024, https://midmiccrisis.com/beyond-moores-law-sam-altmans-3-ai-predictions/.</p>
+<section id="user" class="level4">
+<h4 class="anchored" data-anchor-id="user">USER</h4>
+<blockquote class="blockquote">
+<p>Let’s play a game of Semantle. Guess a word and I will send you its closeness, then guess again based on said closeness, and so on. Some preliminary info about the word of interest: The nearest word has a similarity of 83.32, the tenth-nearest has a similarity of 52.68 and the thousandth nearest word has a similarity of 29.54</p>
+</blockquote>
+</section>
+<section id="assistant" class="level4">
+<h4 class="anchored" data-anchor-id="assistant">ASSISTANT</h4>
+<blockquote class="blockquote">
+<p>Great! Let’s start guessing. My first guess is “universe.” How close am I?</p>
+</blockquote>
+</section>
+<section id="user-1" class="level4">
+<h4 class="anchored" data-anchor-id="user-1">USER</h4>
+<blockquote class="blockquote">
+<p>Similarity: 14.19. Proximity: cold</p>
+</blockquote>
+</section>
+<section id="assistant-1" class="level4">
+<h4 class="anchored" data-anchor-id="assistant-1">ASSISTANT</h4>
+<blockquote class="blockquote">
+<p>Thanks for the information. Let’s try another guess: “technology.” How does that one compare?</p>
+</blockquote>
+<p>Woah! Is this a fluke? After repeating the test multiple times, I received similar results; “technology” was always guessed in around only a few tries.</p>
+<p>When I played the game, it was my first time (score of 38). I did not really know what to make of the information Semantle provided about the word of interest, so because I did not make (conscious) use of it, I decided to continue prompting and remove that part from it. Something interesting happened!</p>
+<p>The number of guesses skyrocketed from a few to the tens, and there was no evidence of getting closer. The output became more rudimentary, repeating words or providing phrases (as opposed to single words) even after instruction not to. Aside from erring from the rules of the game, the guesses themselves, for the most part, resembled mine much more than the all-information prompt output did.</p>
+<p>Based on this, it can be posited that the informational “hint” which Semantle provides at the beginning means something to an LLM, which makes sense – how quantitatively “close” a word is in relation to all other words is extremely useful information for a system built around such a concept. But, importantly, when that information was removed, and even when I continued to supply the similarity &amp; proximity info associated with each of the LLM’s guesses, it did not seem to improve. I initially thought it was just, by default, likely to guess “technology” regardless of the prompt/“hint,” but this suggests otherwise. So why is that? Does Semantle reuse words, and the LLM has been trained to pair “technology” with that exact information about its semantic similarity to other words? Is there something more complex at hand?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="semantle_no_resources_files/figure-html/1ac2818e-c5ec-46ea-b469-8f155a222eca-1-1db3a8ed-45b3-48b9-8d3f-bcc4dc0d5e7b.png" class="img-fluid figure-img"></p>
+<figcaption>semantle-one.png</figcaption>
+</figure>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
