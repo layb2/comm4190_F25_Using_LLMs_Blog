@@ -2,62 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/about.html</loc>
-    <lastmod>2025-11-30T14:24:28.756Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/013_coke_pepsi_associations/coke_pepsi_associations.html</loc>
-    <lastmod>2025-11-30T14:24:28.901Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/003_bias_profession/bias_profession.html</loc>
-    <lastmod>2025-11-30T14:24:28.820Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/004_base_tuned_exercise/base_tuned_exercise.html</loc>
-    <lastmod>2025-11-30T14:24:28.848Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/006_yes_and/yes_and.html</loc>
-    <lastmod>2025-11-30T14:24:28.890Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/005_surfaced_voices/surfaced_voices.html</loc>
-    <lastmod>2025-11-30T14:24:28.885Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/012_coke_pepsi/coke_pepsi.html</loc>
-    <lastmod>2025-11-30T14:24:28.900Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
-    <lastmod>2025-11-30T14:24:28.756Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/001_cognitive_biases/cognitive_biases.html</loc>
-    <lastmod>2025-11-30T14:24:28.777Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/007_book_doomer_critique/book_doomer_critique.html</loc>
-    <lastmod>2025-11-30T14:24:28.891Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/010_ttt_process/ttt_process.html</loc>
-    <lastmod>2025-11-30T14:24:28.893Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/008_book_ai_risks/book_ai_risks.html</loc>
-    <lastmod>2025-11-30T14:24:28.891Z</lastmod>
-  </url>
-  <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/002_bias_control/bias_control.html</loc>
-    <lastmod>2025-11-30T14:24:28.803Z</lastmod>
+    <lastmod>2025-11-30T14:32:20.209Z</lastmod>
   </url>
   <url>
     <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/011_ttt_results/tiktok_task_results.html</loc>
-    <lastmod>2025-11-30T14:24:28.899Z</lastmod>
+    <lastmod>2025-11-30T14:32:20.343Z</lastmod>
   </url>
   <url>
-    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/009_ttt_interrater_reliability/ttt_interrater_reliability.html</loc>
-    <lastmod>2025-11-30T14:24:28.892Z</lastmod>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/002_bias_control/bias_control.html</loc>
+    <lastmod>2025-11-30T14:32:20.248Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/008_book_ai_risks/book_ai_risks.html</loc>
+    <lastmod>2025-11-30T14:32:20.336Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/005_surfaced_voices/surfaced_voices.html</loc>
+    <lastmod>2025-11-30T14:32:20.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/012_coke_pepsi/coke_pepsi.html</loc>
+    <lastmod>2025-11-30T14:32:20.343Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
+    <lastmod>2025-11-30T14:32:20.209Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/001_cognitive_biases/cognitive_biases.html</loc>
+    <lastmod>2025-11-30T14:32:20.225Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/007_book_doomer_critique/book_doomer_critique.html</loc>
+    <lastmod>2025-11-30T14:32:20.336Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/006_yes_and/yes_and.html</loc>
+    <lastmod>2025-11-30T14:32:20.335Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/004_base_tuned_exercise/base_tuned_exercise.html</loc>
+    <lastmod>2025-11-30T14:32:20.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/003_bias_profession/bias_profession.html</loc>
+    <lastmod>2025-11-30T14:32:20.265Z</lastmod>
+  </url>
+  <url>
+    <loc>https://layb2.github.io/comm4190_F25_Using_LLMs_Blog/posts/013_coke_pepsi_associations/coke_pepsi_associations.html</loc>
+    <lastmod>2025-11-30T14:32:20.345Z</lastmod>
   </url>
 </urlset>
