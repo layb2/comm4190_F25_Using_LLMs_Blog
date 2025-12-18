@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Layla">
-<meta name="dcterms.date" content="2025-11-24">
-<meta name="description" content="In a TikTok video with over 1000 comments, a person argues that there are pros and cons to both working fully in-office and working remotely/from home, ultimately advocating for a hybrid work schedule. This blog post series revolves around a study of hybrid/non-hybrid preferences using the comment section of that video and the assistance of an LLM.">
+<meta name="dcterms.date" content="2025-12-04">
+<meta name="description" content="This blog post explores the behaviors of LLMs related to navigating embodied knowledge.">
 
-<title>Improvement Strategies for Inter-rater Reliability – My Explorations with LLMs</title>
+<title>How Does an LLM Handle Translating Experiences? Results of A Simple Exercise – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -113,10 +113,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Improvement Strategies for Inter-rater Reliability</h1>
+      <h1 class="title">How Does an LLM Handle Translating Experiences? Results of A Simple Exercise</h1>
                   <div>
         <div class="description">
-          In a TikTok video with over 1000 comments, a person argues that there are pros and cons to both working fully in-office and working remotely/from home, ultimately advocating for a hybrid work schedule. This blog post series revolves around a study of hybrid/non-hybrid preferences using the comment section of that video and the assistance of an LLM.
+          This blog post explores the behaviors of LLMs related to navigating embodied knowledge.
         </div>
       </div>
                 </div>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 24, 2025</p>
+        <p class="date">December 4, 2025</p>
       </div>
     </div>
     
@@ -154,17 +154,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>While working on this LLM-assisted study of sentiments surrounding hybrid vs non-hybrid work in the comment section of a TikTok video, improving the inter-rater reliability score was the most time-intensive part.</p>
-<p>Minor changes in wording either harmed one concept’s score whilst improving the other, caused minimal improvements to both, or had significant negative effects on both scores.</p>
-<p>A time-intensive process of trial and error, combined with focusing on being as clear and concise as possible while still addressing the variety of possible comment types, was most effective in improving the scores.</p>
-<p>For example, providing the LLM with examples of keywords that signaled preferences was helpful in improving the score. The scores started to near the 0.7 threshold, but my refinements stopped making much improvement, so I examined the LLM-coded dataset to see if there was a certain type of comment that it was miscoding.</p>
-<p>After identifying that it struggled to code comments where agreement was expressed but followed by a statement of preference, I updated the concepts (e.g.&nbsp;“Code 0 if…the agreement is not clearly about the video’s advocacy for hybrid.”) in order to better handle that type of comment and create a clearer distinction between concepts.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="ttt_interrater_reliability_files/figure-html/1ac2818e-c5ec-46ea-b469-8f155a222eca-1-7f45e289-af10-4301-b0cf-5d0ef90da3f8.png" class="img-fluid figure-img"></p>
-<figcaption>IRR-Scores.png</figcaption>
-</figure>
-</div>
+<p>The instructions provided by the LLM for teaching a human vs.&nbsp;someone newly embodied vs.&nbsp;an LLM how to make a sandwich had some interesting differences.</p>
+<ol type="1">
+<li><strong>Instructions for Human</strong>
+<ul>
+<li>Warm, conversational tone</li>
+<li>Includes optional preferences</li>
+<li>Focuses on eating experience</li>
+<li>Non-technical</li>
+</ul></li>
+<li><strong>Instructions for Someone Newly Embodied</strong>
+<ul>
+<li>More mechanical</li>
+<li>Explicit physical actions with descriptors (e.g.&nbsp;hold steadily)</li>
+<li>Focuses on physical execution</li>
+<li>Literal</li>
+</ul></li>
+<li><strong>Instructions for LLM</strong>
+<ul>
+<li>Similar to Human and Newly Embodied</li>
+<li>Includes commentary about why the steps are broken down</li>
+<li>Focuses on clarity <img src="translating experiences_files/figure-html/1ac2818e-c5ec-46ea-b469-8f155a222eca-1-cbf9b2e9-84bc-4afa-9849-08755cdc134f.png" class="img-fluid" alt="pbj.png"></li>
+</ul></li>
+</ol>
 
 
 

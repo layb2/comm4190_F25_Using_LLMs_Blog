@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Layla">
-<meta name="dcterms.date" content="2025-11-24">
-<meta name="description" content="In a TikTok video with over 1000 comments, a person argues that there are pros and cons to both working fully in-office and working remotely/from home, ultimately advocating for a hybrid work schedule. This blog post series revolves around a study of hybrid/non-hybrid preferences using the comment section of that video and the assistance of an LLM.">
+<meta name="dcterms.date" content="2025-12-04">
+<meta name="description" content="This blog post explores the behaviors of LLMs related to navigating embodied knowledge.">
 
-<title>Improvement Strategies for Inter-rater Reliability – My Explorations with LLMs</title>
+<title>How Would an LLM Teach a Human to Make a Sandwich? – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -113,10 +113,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Improvement Strategies for Inter-rater Reliability</h1>
+      <h1 class="title">How Would an LLM Teach a Human to Make a Sandwich?</h1>
                   <div>
         <div class="description">
-          In a TikTok video with over 1000 comments, a person argues that there are pros and cons to both working fully in-office and working remotely/from home, ultimately advocating for a hybrid work schedule. This blog post series revolves around a study of hybrid/non-hybrid preferences using the comment section of that video and the assistance of an LLM.
+          This blog post explores the behaviors of LLMs related to navigating embodied knowledge.
         </div>
       </div>
                 </div>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 24, 2025</p>
+        <p class="date">December 4, 2025</p>
       </div>
     </div>
     
@@ -154,19 +154,51 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>While working on this LLM-assisted study of sentiments surrounding hybrid vs non-hybrid work in the comment section of a TikTok video, improving the inter-rater reliability score was the most time-intensive part.</p>
-<p>Minor changes in wording either harmed one concept’s score whilst improving the other, caused minimal improvements to both, or had significant negative effects on both scores.</p>
-<p>A time-intensive process of trial and error, combined with focusing on being as clear and concise as possible while still addressing the variety of possible comment types, was most effective in improving the scores.</p>
-<p>For example, providing the LLM with examples of keywords that signaled preferences was helpful in improving the score. The scores started to near the 0.7 threshold, but my refinements stopped making much improvement, so I examined the LLM-coded dataset to see if there was a certain type of comment that it was miscoding.</p>
-<p>After identifying that it struggled to code comments where agreement was expressed but followed by a statement of preference, I updated the concepts (e.g.&nbsp;“Code 0 if…the agreement is not clearly about the video’s advocacy for hybrid.”) in order to better handle that type of comment and create a clearer distinction between concepts.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="ttt_interrater_reliability_files/figure-html/1ac2818e-c5ec-46ea-b469-8f155a222eca-1-7f45e289-af10-4301-b0cf-5d0ef90da3f8.png" class="img-fluid figure-img"></p>
-<figcaption>IRR-Scores.png</figcaption>
-</figure>
-</div>
+<section id="user" class="level3">
+<h3 class="anchored" data-anchor-id="user">USER</h3>
+<p>If you had to teach someone how to make a peanut butter and jelly sandwich, what would you tell them?</p>
+</section>
+<section id="assistant" class="level3">
+<h3 class="anchored" data-anchor-id="assistant">ASSISTANT</h3>
+<p>To make a classic peanut butter and jelly sandwich, follow these simple steps:</p>
+<ol type="1">
+<li><strong>Gather Your Ingredients and Tools</strong>:
+<ul>
+<li>Two slices of bread (your choice of white, whole wheat, or any type you prefer).</li>
+<li>Peanut butter (creamy or crunchy, depending on your preference).</li>
+<li>Jelly or jam (such as grape, strawberry, or any other flavor you like).</li>
+<li>A butter knife or a spoon.</li>
+<li>A plate to work on and serve.</li>
+</ul></li>
+<li><strong>Prepare the Bread</strong>:
+<ul>
+<li>Lay the two slices of bread flat on your plate.</li>
+</ul></li>
+<li><strong>Spread the Peanut Butter</strong>:
+<ul>
+<li>Open the peanut butter jar and use the knife or spoon to scoop a generous amount.</li>
+<li>Spread the peanut butter evenly over one side of one slice of bread. Make sure to cover the surface all the way to the edges for a balanced bite.</li>
+</ul></li>
+<li><strong>Spread the Jelly</strong>:
+<ul>
+<li>Open the jelly jar and use a clean knife or spoon (you can rinse the one used for peanut butter if you don’t want to mix them) to scoop some jelly.</li>
+<li>Spread the jelly evenly over one side of the other slice of bread, covering it completely to the edges.</li>
+</ul></li>
+<li><strong>Assemble the Sandwich</strong>:
+<ul>
+<li>Place the peanut butter-covered slice on top of the jelly-covered slice, with the spreads facing each other.</li>
+<li>Press them together gently, ensuring the spreads don’t squeeze out too much.</li>
+</ul></li>
+<li><strong>Cut and Serve</strong> (optional):
+<ul>
+<li>If you prefer, you can cut the sandwich into halves or quarters for easier handling or to share.</li>
+<li>Serve on the plate and enjoy your sandwich!</li>
+</ul></li>
+</ol>
+<p>Feel free to adjust the quantities of peanut butter and jelly according to your taste preferences. Enjoy your homemade peanut butter and jelly sandwich! <img src="translating experiences_files/figure-html/1ac2818e-c5ec-46ea-b469-8f155a222eca-1-cbf9b2e9-84bc-4afa-9849-08755cdc134f.png" class="img-fluid" alt="pbj.png"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
