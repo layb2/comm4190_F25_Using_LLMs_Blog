@@ -1,0 +1,1 @@
+Welcome to my blog! My posts feature explorations of LLMs and reflections on the book Unmasking AI by Dr. Buolamwini, as part of the course COMM 4190 Talking With AI: Computational and Communication Approaches.
