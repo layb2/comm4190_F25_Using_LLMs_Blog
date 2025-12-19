@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/030_book_ethical_dilemma/book_ed.html",
+      "/posts/029_sociotechnical_approach/book_st.html",
       "/posts/028_results_of_semantle_comparison/semantle_comparison_results.html",
       "/posts/025_differences_in_llm_instructions/translating experiences.html",
       "/posts/018_semantle_t2/semantle_no_resources.html",
